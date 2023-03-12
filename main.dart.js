@@ -63121,7 +63121,7 @@ Date.now()
 p=B.bb.ig(new A.V_(m,new A.eP(l,!1)))
 l=t.N
 s=2
-return A.a_(A.awo(A.xa("https://gestell.azurewebsites.net/api/Gestell"),p,A.al(["Content-Type","application/json"],l,l)).AH(0,A.ca(0,0,25)),$async$$0)
+return A.a_(A.awo(A.xa("https://gestell.azurewebsites.net/api/Gestell"),p,A.al(["Content-Type","application/json","Access-Control-Allow-Origin","*","Access-Control-Allow-Credentials","true","Access-Control-Allow-Headers","Origin, Content-Type, X-Amz-Date, Authorization, X-Api-Key, X-Amz-Security-Token, locale","Access-Control-Allow-Methods","GET, POST"],l,l)).AH(0,A.ca(0,0,25)),$async$$0)
 case 2:o=b
 A.avD(A.atL(o.e).c.a.h(0,"charset")).d0(0,o.w)
 m=q.b
